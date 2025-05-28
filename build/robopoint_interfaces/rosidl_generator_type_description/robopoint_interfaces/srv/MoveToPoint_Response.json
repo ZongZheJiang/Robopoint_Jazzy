@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robopoint_interfaces/srv/MoveToPoint_Response",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "robopoint_interfaces/srv/MoveToPoint_Response",
+      "hash_string": "RIHS01_f7df4e6ccecff09019e791b05d8ace024841b00f805f31260ed6ab0f869d59b3"
+    }
+  ]
+}

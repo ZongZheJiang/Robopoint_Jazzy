@@ -1,0 +1,15 @@
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/ament_index/resource_index/package_run_dependencies/interbotix_common_toolbox
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/ament_index/resource_index/parent_prefix_path/interbotix_common_toolbox
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/interbotix_common_toolbox/environment/ament_prefix_path.sh
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/interbotix_common_toolbox/environment/ament_prefix_path.dsv
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/interbotix_common_toolbox/environment/path.sh
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/interbotix_common_toolbox/environment/path.dsv
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/interbotix_common_toolbox/local_setup.bash
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/interbotix_common_toolbox/local_setup.sh
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/interbotix_common_toolbox/local_setup.zsh
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/interbotix_common_toolbox/local_setup.dsv
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/interbotix_common_toolbox/package.dsv
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/ament_index/resource_index/packages/interbotix_common_toolbox
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/interbotix_common_toolbox/cmake/interbotix_common_toolboxConfig.cmake
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/interbotix_common_toolbox/cmake/interbotix_common_toolboxConfig-version.cmake
+/home/evas/robopoint2/install/interbotix_common_toolbox/share/interbotix_common_toolbox/package.xml

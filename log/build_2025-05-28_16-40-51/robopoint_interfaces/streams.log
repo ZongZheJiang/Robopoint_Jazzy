@@ -1,0 +1,302 @@
+[0.167s] Invoking command in '/home/evas/robopoint2/build/robopoint_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/home/evas/robopoint2/install/robot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/evas/robopoint2/src/robopoint_interfaces -DCMAKE_INSTALL_PREFIX=/home/evas/robopoint2/install/robopoint_interfaces
+[0.342s] -- The C compiler identification is GNU 13.3.0
+[0.342s] -- The CXX compiler identification is GNU 13.3.0
+[0.342s] -- Detecting C compiler ABI info
+[0.343s] -- Detecting C compiler ABI info - done
+[0.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.343s] -- Detecting C compile features
+[0.343s] -- Detecting C compile features - done
+[0.343s] -- Detecting CXX compiler ABI info
+[0.388s] -- Detecting CXX compiler ABI info - done
+[0.399s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.399s] -- Detecting CXX compile features
+[0.400s] -- Detecting CXX compile features - done
+[0.403s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.538s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.625s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.723s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.812s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.870s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.336s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.711s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.135s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.237s] -- Found PythonExtra: /usr/bin/python3  
+[2.562s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.590s] -- Added test 'lint_cmake' to check CMake code style
+[2.591s] -- Added test 'xmllint' to check XML markup files
+[2.595s] -- Configuring done (2.4s)
+[2.620s] -- Generating done (0.0s)
+[2.629s] -- Build files have been written to: /home/evas/robopoint2/build/robopoint_interfaces
+[2.637s] Invoked command in '/home/evas/robopoint2/build/robopoint_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/home/evas/robopoint2/install/robot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/evas/robopoint2/src/robopoint_interfaces -DCMAKE_INSTALL_PREFIX=/home/evas/robopoint2/install/robopoint_interfaces
+[2.638s] Invoking command in '/home/evas/robopoint2/build/robopoint_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/home/evas/robopoint2/install/robot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/evas/robopoint2/build/robopoint_interfaces -- -j16 -l16
+[2.673s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.679s] [  1%] Built target ament_cmake_python_copy_robopoint_interfaces
+[2.837s] [  1%] Built target robopoint_interfaces__rosidl_generator_type_description
+[2.844s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.846s] running egg_info
+[2.847s] creating robopoint_interfaces.egg-info
+[2.852s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.862s] writing robopoint_interfaces.egg-info/PKG-INFO
+[2.862s] writing dependency_links to robopoint_interfaces.egg-info/dependency_links.txt
+[2.863s] writing top-level names to robopoint_interfaces.egg-info/top_level.txt
+[2.863s] writing manifest file 'robopoint_interfaces.egg-info/SOURCES.txt'
+[2.911s] reading manifest file 'robopoint_interfaces.egg-info/SOURCES.txt'
+[2.912s] writing manifest file 'robopoint_interfaces.egg-info/SOURCES.txt'
+[2.934s] [  5%] Built target ament_cmake_python_build_robopoint_interfaces_egg
+[3.192s] [  5%] Built target robopoint_interfaces__cpp
+[3.238s] [  7%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.c.o[0m
+[3.238s] [  9%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robopoint_interfaces/srv/detail/query__description.c.o[0m
+[3.238s] [ 11%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robopoint_interfaces/srv/detail/get3_d_coordinates__description.c.o[0m
+[3.238s] [ 12%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robopoint_interfaces/srv/detail/get3_d_coordinates__functions.c.o[0m
+[3.239s] [ 14%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robopoint_interfaces/srv/detail/move_to_point__description.c.o[0m
+[3.239s] [ 16%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robopoint_interfaces/srv/detail/move_to_point__functions.c.o[0m
+[3.239s] [ 18%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robopoint_interfaces/srv/detail/move_to_point__type_support.c.o[0m
+[3.240s] [ 22%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robopoint_interfaces/srv/detail/query__type_support.c.o[0m
+[3.240s] [ 22%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robopoint_interfaces/srv/detail/query__functions.c.o[0m
+[3.316s] [ 24%] [32m[1mLinking C shared library librobopoint_interfaces__rosidl_generator_c.so[0m
+[3.343s] [ 24%] Built target robopoint_interfaces__rosidl_generator_c
+[3.350s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.350s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.350s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.350s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.351s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.352s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.596s] [ 38%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robopoint_interfaces/srv/move_to_point__type_support.cpp.o[0m
+[3.596s] [ 38%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robopoint_interfaces/srv/get3_d_coordinates__type_support.cpp.o[0m
+[3.596s] [ 40%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robopoint_interfaces/srv/query__type_support.cpp.o[0m
+[3.650s] [ 42%] [32m[1mLinking CXX shared library librobopoint_interfaces__rosidl_typesupport_c.so[0m
+[3.651s] [ 44%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robopoint_interfaces/srv/detail/move_to_point__type_support.cpp.o[0m
+[3.652s] [ 46%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robopoint_interfaces/srv/detail/query__type_support.cpp.o[0m
+[3.653s] [ 48%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.cpp.o[0m
+[3.671s] [ 53%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robopoint_interfaces/srv/detail/move_to_point__type_support.c.o[0m
+[3.671s] [ 53%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.c.o[0m
+[3.671s] [ 53%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robopoint_interfaces/srv/detail/query__type_support.c.o[0m
+[3.688s] [ 53%] Built target robopoint_interfaces__rosidl_typesupport_c
+[3.724s] [ 55%] [32m[1mLinking C shared library librobopoint_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.752s] [ 55%] Built target robopoint_interfaces__rosidl_typesupport_introspection_c
+[3.794s] [ 57%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robopoint_interfaces/srv/query__type_support.cpp.o[0m
+[3.794s] [ 59%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robopoint_interfaces/srv/get3_d_coordinates__type_support.cpp.o[0m
+[3.795s] [ 61%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robopoint_interfaces/srv/move_to_point__type_support.cpp.o[0m
+[3.914s] [ 64%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robopoint_interfaces/srv/detail/query__type_support_c.cpp.o[0m
+[3.914s] [ 64%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support_c.cpp.o[0m
+[3.914s] [ 66%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robopoint_interfaces/srv/detail/move_to_point__type_support_c.cpp.o[0m
+[3.961s] [ 72%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robopoint_interfaces/srv/detail/dds_fastrtps/get3_d_coordinates__type_support.cpp.o[0m
+[3.961s] [ 72%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robopoint_interfaces/srv/detail/dds_fastrtps/move_to_point__type_support.cpp.o[0m
+[3.961s] [ 72%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robopoint_interfaces/srv/detail/dds_fastrtps/query__type_support.cpp.o[0m
+[4.132s] [ 74%] [32m[1mLinking CXX shared library librobopoint_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.225s] [ 74%] Built target robopoint_interfaces__rosidl_typesupport_introspection_cpp
+[4.255s] [ 75%] [32m[1mLinking CXX shared library librobopoint_interfaces__rosidl_typesupport_cpp.so[0m
+[4.319s] [ 75%] Built target robopoint_interfaces__rosidl_typesupport_cpp
+[4.494s] [ 77%] [32m[1mLinking CXX shared library librobopoint_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.549s] [ 77%] Built target robopoint_interfaces__rosidl_typesupport_fastrtps_c
+[4.582s] [ 79%] [32m[1mLinking CXX shared library librobopoint_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.635s] [ 79%] Built target robopoint_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.649s] [ 79%] Built target robopoint_interfaces
+[4.663s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.136s] [ 81%] Built target robopoint_interfaces__py
+[5.149s] [ 87%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robopoint_interfaces/srv/_get3_d_coordinates_s.c.o[0m
+[5.149s] [ 87%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robopoint_interfaces/srv/_query_s.c.o[0m
+[5.149s] [ 87%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robopoint_interfaces/srv/_move_to_point_s.c.o[0m
+[5.251s] [ 88%] [32m[1mLinking C shared library librobopoint_interfaces__rosidl_generator_py.so[0m
+[5.281s] [ 88%] Built target robopoint_interfaces__rosidl_generator_py
+[5.296s] [ 94%] [32mBuilding C object CMakeFiles/robopoint_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robopoint_interfaces/_robopoint_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.296s] [ 94%] [32mBuilding C object CMakeFiles/robopoint_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robopoint_interfaces/_robopoint_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.296s] [ 94%] [32mBuilding C object CMakeFiles/robopoint_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/robopoint_interfaces/_robopoint_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.385s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_c.so[0m
+[5.385s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.387s] [100%] [32m[1mLinking C shared module rosidl_generator_py/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.406s] [100%] Built target robopoint_interfaces_s__rosidl_typesupport_c
+[5.406s] [100%] Built target robopoint_interfaces_s__rosidl_typesupport_introspection_c
+[5.408s] [100%] Built target robopoint_interfaces_s__rosidl_typesupport_fastrtps_c
+[5.416s] Invoked command in '/home/evas/robopoint2/build/robopoint_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/home/evas/robopoint2/install/robot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/evas/robopoint2/build/robopoint_interfaces -- -j16 -l16
+[5.417s] Invoking command in '/home/evas/robopoint2/build/robopoint_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/home/evas/robopoint2/install/robot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/evas/robopoint2/build/robopoint_interfaces
+[5.423s] -- Install configuration: ""
+[5.423s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/ament_index/resource_index/rosidl_interfaces/robopoint_interfaces
+[5.423s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/srv/Get3DCoordinates.json
+[5.423s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/srv/MoveToPoint.json
+[5.423s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/srv/Query.json
+[5.423s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces
+[5.424s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg
+[5.424s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.424s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv
+[5.424s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/move_to_point.h
+[5.424s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/get3_d_coordinates.h
+[5.424s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail
+[5.424s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__functions.c
+[5.424s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__functions.h
+[5.424s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__struct.h
+[5.424s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__functions.h
+[5.424s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__functions.h
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__type_support.c
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__functions.c
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.h
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__description.c
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__description.c
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__functions.c
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__struct.h
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__description.c
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__type_support.h
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.c
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__type_support.h
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__struct.h
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__type_support.c
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/query.h
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/environment/library_path.sh
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/environment/library_path.dsv
+[5.425s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_generator_c.so
+[5.425s] -- Set non-toolchain portion of runtime path of "/home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_generator_c.so" to ""
+[5.425s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces
+[5.426s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg
+[5.426s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.426s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv
+[5.426s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail
+[5.426s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__rosidl_typesupport_fastrtps_c.h
+[5.426s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__rosidl_typesupport_fastrtps_c.h
+[5.426s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__rosidl_typesupport_fastrtps_c.h
+[5.426s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.426s] -- Set non-toolchain portion of runtime path of "/home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.426s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces
+[5.426s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg
+[5.426s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.426s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv
+[5.426s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail
+[5.426s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__type_support.c
+[5.426s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__rosidl_typesupport_introspection_c.h
+[5.426s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__rosidl_typesupport_introspection_c.h
+[5.426s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.c
+[5.426s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__rosidl_typesupport_introspection_c.h
+[5.426s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__type_support.c
+[5.426s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_introspection_c.so
+[5.427s] -- Set non-toolchain portion of runtime path of "/home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_c.so
+[5.427s] -- Set non-toolchain portion of runtime path of "/home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_c.so" to ""
+[5.427s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces
+[5.427s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.427s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/get3_d_coordinates.hpp
+[5.427s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__struct.hpp
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__type_support.hpp
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__builder.hpp
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__struct.hpp
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__struct.hpp
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__builder.hpp
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.hpp
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__builder.hpp
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__type_support.hpp
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__traits.hpp
+[5.427s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__traits.hpp
+[5.428s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__traits.hpp
+[5.428s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/move_to_point.hpp
+[5.428s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/query.hpp
+[5.428s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces
+[5.428s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg
+[5.428s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.428s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv
+[5.428s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail
+[5.428s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[5.428s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__rosidl_typesupport_fastrtps_cpp.hpp
+[5.428s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/dds_fastrtps
+[5.428s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__rosidl_typesupport_fastrtps_cpp.hpp
+[5.428s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.428s] -- Set non-toolchain portion of runtime path of "/home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.428s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces
+[5.428s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv
+[5.428s] -- Up-to-date: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail
+[5.428s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__rosidl_typesupport_introspection_cpp.hpp
+[5.428s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__rosidl_typesupport_introspection_cpp.hpp
+[5.428s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__type_support.cpp
+[5.428s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__type_support.cpp
+[5.429s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/query__rosidl_typesupport_introspection_cpp.hpp
+[5.429s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.cpp
+[5.429s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.429s] -- Set non-toolchain portion of runtime path of "/home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.429s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_cpp.so
+[5.429s] -- Set non-toolchain portion of runtime path of "/home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.429s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/environment/pythonpath.sh
+[5.429s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/environment/pythonpath.dsv
+[5.429s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces-0.0.0-py3.12.egg-info
+[5.429s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.429s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.429s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[5.429s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[5.429s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces
+[5.430s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/_robopoint_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.430s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.430s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/_robopoint_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.430s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/__init__.py
+[5.430s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_c.so
+[5.430s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/srv
+[5.430s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/srv/_get3_d_coordinates_s.c
+[5.430s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/srv/__init__.py
+[5.430s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/srv/_query.py
+[5.430s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/srv/_move_to_point.py
+[5.430s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/srv/_move_to_point_s.c
+[5.431s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/srv/_query_s.c
+[5.431s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/srv/_get3_d_coordinates.py
+[5.431s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/_robopoint_interfaces_s.ep.rosidl_typesupport_c.c
+[5.431s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.466s] Listing '/home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces'...
+[5.466s] Compiling '/home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/__init__.py'...
+[5.466s] Listing '/home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/srv'...
+[5.466s] Compiling '/home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/srv/__init__.py'...
+[5.466s] Compiling '/home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/srv/_get3_d_coordinates.py'...
+[5.466s] Compiling '/home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/srv/_move_to_point.py'...
+[5.466s] Compiling '/home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/srv/_query.py'...
+[5.470s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.470s] -- Set non-toolchain portion of runtime path of "/home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.470s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.470s] -- Set non-toolchain portion of runtime path of "/home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[5.471s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_c.so
+[5.471s] -- Set non-toolchain portion of runtime path of "/home/evas/robopoint2/install/robopoint_interfaces/lib/python3.12/site-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_c.so" to ""
+[5.471s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_generator_py.so
+[5.471s] -- Set non-toolchain portion of runtime path of "/home/evas/robopoint2/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_generator_py.so" to ""
+[5.471s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/srv/Get3DCoordinates.idl
+[5.471s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/srv/MoveToPoint.idl
+[5.471s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/srv/Query.idl
+[5.471s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/srv/Get3DCoordinates.srv
+[5.471s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/srv/MoveToPoint.srv
+[5.471s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/srv/Query.srv
+[5.471s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/ament_index/resource_index/package_run_dependencies/robopoint_interfaces
+[5.471s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/ament_index/resource_index/parent_prefix_path/robopoint_interfaces
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/environment/ament_prefix_path.sh
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/environment/ament_prefix_path.dsv
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/environment/path.sh
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/environment/path.dsv
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/local_setup.bash
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/local_setup.sh
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/local_setup.zsh
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/local_setup.dsv
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/package.dsv
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/ament_index/resource_index/packages/robopoint_interfaces
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_generator_cExport.cmake
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.472s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_cExport.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_generator_cppExport.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_cppExport.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_generator_pyExport.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.473s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.474s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.474s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.474s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.474s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.474s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfacesConfig.cmake
+[5.474s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfacesConfig-version.cmake
+[5.474s] -- Installing: /home/evas/robopoint2/install/robopoint_interfaces/share/robopoint_interfaces/package.xml
+[5.476s] Invoked command in '/home/evas/robopoint2/build/robopoint_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/home/evas/robopoint2/install/robot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/evas/robopoint2/build/robopoint_interfaces
