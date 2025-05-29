@@ -1,0 +1,43 @@
+[0.179s] Invoking command in '/home/evas/robopoint2/build/interbotix_common_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/home/evas/robopoint2/install/robot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/evas/robopoint2/build/interbotix_common_sim -- -j16 -l16
+[0.513s] Invoked command in '/home/evas/robopoint2/build/interbotix_common_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/home/evas/robopoint2/install/robot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/evas/robopoint2/build/interbotix_common_sim -- -j16 -l16
+[0.513s] Invoking command in '/home/evas/robopoint2/build/interbotix_common_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/home/evas/robopoint2/install/robot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/evas/robopoint2/build/interbotix_common_sim
+[0.518s] -- Install configuration: ""
+[0.519s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/models
+[0.519s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415
+[0.520s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/model.config
+[0.520s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/camera.stl
+[0.520s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/RealSenseD415.sdf
+[0.520s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/models/TrossenRoboticsOfficeBuilding
+[0.520s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/models/TrossenRoboticsOfficeBuilding/model.config
+[0.520s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/models/TrossenRoboticsOfficeBuilding/TrossenRoboticsOfficeBuilding.sdf
+[0.520s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit
+[0.520s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/stand.stl
+[0.520s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/VisionKit.sdf
+[0.520s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/model.config
+[0.520s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/worlds
+[0.521s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/worlds/vision_kit.world
+[0.521s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/worlds/interbotix.world
+[0.521s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/media
+[0.521s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/media/materials
+[0.521s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/textures
+[0.521s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/textures/interbotix_black.png
+[0.521s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/scripts
+[0.521s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/scripts/interbotix_texture.gazebo
+[0.521s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/scripts/interbotix_black.material
+[0.522s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/media/interbotix_black.png
+[0.522s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/ament_index/resource_index/package_run_dependencies/interbotix_common_sim
+[0.522s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/ament_index/resource_index/parent_prefix_path/interbotix_common_sim
+[0.522s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/environment/ament_prefix_path.sh
+[0.522s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/environment/ament_prefix_path.dsv
+[0.523s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/environment/path.sh
+[0.523s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/environment/path.dsv
+[0.523s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.bash
+[0.523s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.sh
+[0.523s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.zsh
+[0.523s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.dsv
+[0.524s] -- Installing: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/package.dsv
+[0.524s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/ament_index/resource_index/packages/interbotix_common_sim
+[0.524s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/cmake/interbotix_common_simConfig.cmake
+[0.524s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/cmake/interbotix_common_simConfig-version.cmake
+[0.524s] -- Up-to-date: /home/evas/robopoint2/install/interbotix_common_sim/share/interbotix_common_sim/package.xml
+[0.580s] Invoked command in '/home/evas/robopoint2/build/interbotix_common_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/home/evas/robopoint2/install/robot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/evas/robopoint2/build/interbotix_common_sim

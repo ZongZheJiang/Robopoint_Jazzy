@@ -1,0 +1,22 @@
+[0.954s] Invoking command in '/home/evas/robopoint2/src/robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/evas/robopoint2/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/evas/robopoint2/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/evas/robopoint2/build/robot_control/build install --record /home/evas/robopoint2/build/robot_control/install.log --single-version-externally-managed install_data
+[1.150s] running egg_info
+[1.165s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[1.165s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[1.165s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[1.165s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[1.165s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[1.196s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[1.197s] adding license file 'LICENSE'
+[1.197s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[1.197s] running build
+[1.197s] running build_py
+[1.198s] running install
+[1.203s] running install_lib
+[1.218s] running install_data
+[1.218s] running install_egg_info
+[1.234s] removing '/home/evas/robopoint2/install/robot_control/lib/python3.12/site-packages/robot_control-0.0.0-py3.12.egg-info' (and everything under it)
+[1.234s] Copying ../../build/robot_control/robot_control.egg-info to /home/evas/robopoint2/install/robot_control/lib/python3.12/site-packages/robot_control-0.0.0-py3.12.egg-info
+[1.234s] running install_scripts
+[1.332s] Installing move_arm script to /home/evas/robopoint2/install/robot_control/lib/robot_control
+[1.333s] writing list of installed files to '/home/evas/robopoint2/build/robot_control/install.log'
+[1.353s] Invoked command in '/home/evas/robopoint2/src/robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/evas/robopoint2/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/evas/robopoint2/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/evas/robopoint2/build/robot_control/build install --record /home/evas/robopoint2/build/robot_control/install.log --single-version-externally-managed install_data

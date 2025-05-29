@@ -1,0 +1,13 @@
+{
+  "package_name": "robopoint_interfaces",
+  "output_dir": "/home/evas/robopoint2/build/robopoint_interfaces/rosidl_generator_type_description/robopoint_interfaces",
+  "idl_tuples": [
+    "/home/evas/robopoint2/build/robopoint_interfaces/rosidl_adapter/robopoint_interfaces:srv/Get3DCoordinates.idl",
+    "/home/evas/robopoint2/build/robopoint_interfaces/rosidl_adapter/robopoint_interfaces:srv/MoveToPoint.idl",
+    "/home/evas/robopoint2/build/robopoint_interfaces/rosidl_adapter/robopoint_interfaces:srv/Query.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}
