@@ -4,9 +4,9 @@ from robopoint_interfaces.srv import Get3DCoordinates, MoveToPoint
 import tf2_ros
 import tf2_geometry_msgs
 from geometry_msgs.msg import PointStamped
-from interbotix_ros_toolboxes.interbotix_xs_toolbox.interbotix_xs_modules.interbotix_xs_modules.xs_robot.arm import InterbotixManipulatorXS
+from interbotix_xs_modules.xs_robot.arm import InterbotixManipulatorXS
 
-"""
+"""interbotix_ros_toolboxes.interbotix_xs_toolbox.interbotix_xs_modules.i
 We will need to set up a camera frame (camera_link) manually while testing to provide a reference of where the physical camera is
 located in the robot's base frame (px100/base_link).
 
