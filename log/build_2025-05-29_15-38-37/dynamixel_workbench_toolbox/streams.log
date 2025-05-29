@@ -1,0 +1,46 @@
+[0.197s] Invoking command in '/home/evas/robopoint2/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/robot_control:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/evas/robopoint2/build/dynamixel_workbench_toolbox -- -j16 -l16
+[0.702s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.702s] -- Found dynamixel_sdk: 3.8.3 (/opt/ros/jazzy/share/dynamixel_sdk/cmake)
+[0.702s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.702s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.703s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.703s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.703s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.703s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.703s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.703s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.877s] -- Configuring done (0.6s)
+[0.886s] -- Generating done (0.0s)
+[0.890s] -- Build files have been written to: /home/evas/robopoint2/build/dynamixel_workbench_toolbox
+[0.930s] [100%] Built target dynamixel_workbench_toolbox
+[0.953s] Invoked command in '/home/evas/robopoint2/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/robot_control:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/evas/robopoint2/build/dynamixel_workbench_toolbox -- -j16 -l16
+[0.954s] Invoking command in '/home/evas/robopoint2/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/robot_control:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/evas/robopoint2/build/dynamixel_workbench_toolbox
+[0.963s] -- Install configuration: ""
+[0.963s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/lib/libdynamixel_workbench_toolbox.so
+[0.964s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/include/
+[0.964s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox
+[0.964s] -- Installing: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_tool.h
+[0.964s] -- Installing: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_driver.h
+[0.964s] -- Installing: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_workbench.h
+[0.965s] -- Installing: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_item.h
+[0.965s] -- Installing: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.sh
+[0.965s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.dsv
+[0.965s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_toolbox
+[0.965s] -- Installing: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_toolbox
+[0.965s] -- Installing: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.sh
+[0.965s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.dsv
+[0.966s] -- Installing: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.sh
+[0.966s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.dsv
+[0.966s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.bash
+[0.966s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.sh
+[0.966s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.zsh
+[0.966s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.dsv
+[0.966s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv
+[0.967s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/packages/dynamixel_workbench_toolbox
+[0.967s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.968s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.968s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[0.968s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig.cmake
+[0.968s] -- Up-to-date: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig-version.cmake
+[0.968s] -- Installing: /home/evas/robopoint2/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.xml
+[0.983s] Invoked command in '/home/evas/robopoint2/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/robot_control:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/evas/robopoint2/build/dynamixel_workbench_toolbox

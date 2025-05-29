@@ -1,0 +1,55 @@
+[0.032s] Invoking command in '/home/evas/robopoint2/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/robot_control:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/evas/robopoint2/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs -DCMAKE_INSTALL_PREFIX=/home/evas/robopoint2/install/interbotix_xs_msgs
+[0.519s] -- The C compiler identification is GNU 13.3.0
+[0.519s] -- The CXX compiler identification is GNU 13.3.0
+[0.519s] -- Detecting C compiler ABI info
+[0.519s] -- Detecting C compiler ABI info - done
+[0.519s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.519s] -- Detecting C compile features
+[0.520s] -- Detecting C compile features - done
+[0.520s] -- Detecting CXX compiler ABI info
+[0.520s] -- Detecting CXX compiler ABI info - done
+[0.520s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.520s] -- Detecting CXX compile features
+[0.520s] -- Detecting CXX compile features - done
+[0.520s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.520s] -- Found Python3: /home/evas/robopoint2/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.587s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.715s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.718s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.753s] -- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[0.951s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.952s]   execute_process(/home/evas/robopoint2/.venv/bin/python3 -m rosidl_adapter
+[0.952s]   --package-name interbotix_xs_msgs --arguments-file
+[0.952s]   /home/evas/robopoint2/build/interbotix_xs_msgs/rosidl_adapter__arguments__interbotix_xs_msgs.json
+[0.952s]   --output-dir
+[0.952s]   /home/evas/robopoint2/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs
+[0.952s]   --output-file
+[0.952s]   /home/evas/robopoint2/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs.idls)
+[0.952s]   returned error code 1:
+[0.953s] 
+[0.953s]   Traceback (most recent call last):
+[0.953s] 
+[0.953s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.953s]     File "<frozen runpy>", line 88, in _run_code
+[0.953s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.953s]       sys.exit(main())
+[0.953s]                ^^^^^^
+[0.953s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.953s]       abs_idl_file = convert_to_idl(
+[0.953s]                      ^^^^^^^^^^^^^^^
+[0.953s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[0.953s]       from rosidl_adapter.msg import convert_msg_to_idl
+[0.953s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[0.953s]       from rosidl_adapter.resource import expand_template
+[0.954s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[0.954s]       import em
+[0.954s] 
+[0.954s]   ModuleNotFoundError: No module named 'em'
+[0.954s] 
+[0.954s] Call Stack (most recent call first):
+[0.954s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.954s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[0.954s] 
+[0.954s] [0m
+[0.954s] -- Configuring incomplete, errors occurred!

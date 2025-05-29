@@ -1,0 +1,47 @@
+[0.258s] Invoking command in '/home/evas/robopoint2/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evas/robopoint2/install/robot_startup:/home/evas/robopoint2/install/robot_control:/home/evas/robopoint2/install/interbotix_xs_modules:/home/evas/robopoint2/install/interbotix_common_modules:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/evas/robopoint2/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools -DCMAKE_INSTALL_PREFIX=/home/evas/robopoint2/install/interbotix_tf_tools
+[0.510s] -- The C compiler identification is GNU 13.3.0
+[0.510s] -- The CXX compiler identification is GNU 13.3.0
+[0.510s] -- Detecting C compiler ABI info
+[0.510s] -- Detecting C compiler ABI info - done
+[0.510s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.511s] -- Detecting C compile features
+[0.511s] -- Detecting C compile features - done
+[0.511s] -- Detecting CXX compiler ABI info
+[0.575s] -- Detecting CXX compiler ABI info - done
+[0.585s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.585s] -- Detecting CXX compile features
+[0.585s] -- Detecting CXX compile features - done
+[0.588s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.696s] -- Found Python3: /home/evas/robopoint2/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.820s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.882s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.898s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.916s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.936s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.991s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.059s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.063s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.142s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.163s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.187s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.262s] -- Found rclcpp_components: 28.1.9 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.300s] -- Found tf2_msgs: 0.36.11 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[1.362s] -- Found tf2_ros: 0.36.11 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.407s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.430s] Traceback (most recent call last):
+[1.430s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[1.430s]     from catkin_pkg.package import parse_package_string
+[1.430s] ModuleNotFoundError: No module named 'catkin_pkg'
+[1.435s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.435s]   execute_process(/home/evas/robopoint2/.venv/bin/python3
+[1.435s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.435s]   /home/evas/robopoint2/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/package.xml
+[1.435s]   /home/evas/robopoint2/build/interbotix_tf_tools/ament_cmake_core/package.cmake)
+[1.435s]   returned error code 1
+[1.435s] Call Stack (most recent call first):
+[1.435s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.436s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.436s]   CMakeLists.txt:68 (ament_lint_auto_find_test_dependencies)
+[1.436s] 
+[1.436s] [0m
+[1.436s] -- Configuring incomplete, errors occurred!

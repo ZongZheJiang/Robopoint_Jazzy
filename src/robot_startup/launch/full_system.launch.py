@@ -48,8 +48,8 @@ def generate_launch_description():
     )
 
     move_arm_node = Node(
-        package='robot_startup',
-        namespace='robot_startup',
+        package='robot_control',
+        namespace='robot_control',
         executable='move_arm',
         output='screen'
     )
