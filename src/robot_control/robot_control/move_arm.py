@@ -5,6 +5,8 @@ import tf2_ros
 import tf2_geometry_msgs
 from geometry_msgs.msg import PointStamped
 from interbotix_xs_modules.xs_robot.arm import InterbotixManipulatorXS
+from std_msgs.msg import Float32MultiArray
+import math
 
 """interbotix_ros_toolboxes.interbotix_xs_toolbox.interbotix_xs_modules.i
 We will need to set up a camera frame (camera_link) manually while testing to provide a reference of where the physical camera is
@@ -42,6 +44,13 @@ class MoveArmNode(Node):
             'get_3d_coordinates'
         )
 
+        self.desired_joint_states_subscription = self.create_subscription(
+            Float32MultiArray,
+            'desired_joint_states',
+            self.listener_callback,
+            10
+        )
+
         # Create and start service server for "move_to_point"
         # this is service name, different from node name
         self.move_to_point_srv = self.create_service(
@@ -54,6 +63,11 @@ class MoveArmNode(Node):
         self.bot = InterbotixManipulatorXS("px100", "arm", "gripper")
 
         self.get_logger().info("MoveArmNode is up and running.")
+    
+
+    def listener_callback(self, msg):
+        pass
+        # TODO: process the received information to be sent to /px100/joint_states 
 
     
     def move_to_point_callback(self, request, response):

@@ -18,7 +18,7 @@ def generate_launch_description():
         launch_arguments={
             'robot_model': 'px100',  
             'use_rviz': 'true', 
-            'dof': '5',                
+            'dof': '4',                
             'use_sim_time': 'true'
         }.items()
     )
