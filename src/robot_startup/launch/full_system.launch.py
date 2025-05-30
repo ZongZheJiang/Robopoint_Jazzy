@@ -17,9 +17,9 @@ def generate_launch_description():
         ]),
         launch_arguments={
             'robot_model': 'px100',  
-            'use_rviz': 'true', 
-            'dof': '4',                
-            'use_sim_time': 'true'
+            'use_rviz': 'true',
+            'use_joint_pub_gui': 'true',
+            'hardware_type': 'fake',
         }.items()
     )
 
@@ -67,6 +67,6 @@ def generate_launch_description():
     ld.add_action(realsense_camera_launch)
     # ld.add_action(image_projector_node)
     # ld.add_action(query_node)
-    ld.add_action(move_arm_node)
+    # ld.add_action(move_arm_node)
 
     return ld
