@@ -10,5 +10,9 @@ import math
 
 class EndpointCalculatorNode(Node):
 
-    def __init__():
+    def __init__(self):
         super().__init__('endpoint_calculator_node')
+
+        self.coordinates_subscriber = self.create_subscription(
+            
+        )

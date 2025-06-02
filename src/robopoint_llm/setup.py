@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'image_projector'
+package_name = 'robopoint_llm'
 
 setup(
     name=package_name,
@@ -9,8 +9,9 @@ setup(
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
     ],
-    install_requires=['setuptools','robopoint_interfaces'],
+    install_requires=['setuptools'],
     zip_safe=True,
     maintainer='ddq2',
     maintainer_email='hominhan56@gmail.com',
@@ -19,9 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            # 'executable_name_in_ros = package_name.python_module_name:main_function'
-            'image_projector = image_projector.image_projector:main',
-            'realsense_projector = image_projector.realsense_projector:main'
+            'query = robopoint_llm.query:main',
         ],
     },
 )

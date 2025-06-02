@@ -18,9 +18,7 @@ def generate_launch_description():
         launch_arguments={
             'robot_model': 'px100',  
             'use_rviz': 'true',
-            'use_joint_pub_gui': 'true',
-            'hardware_type': 'fake',
-        }.items()
+            'use_joint_pub_gui': 'true'        }.items()
     )
 
     realsense_camera_launch = IncludeLaunchDescription(
@@ -61,12 +59,20 @@ def generate_launch_description():
         output='screen'
     )
 
+    realsense_node = Node(
+        package='image_projector',
+        namespace='realsense_node',
+        executable='realsense_projector',
+        output='screen'
+    )
+
     ld = LaunchDescription()
 
     ld.add_action(interbotix_xsarm_launch)
     ld.add_action(realsense_camera_launch)
-    # ld.add_action(image_projector_node)
-    # ld.add_action(query_node)
-    # ld.add_action(move_arm_node)
+    ld.add_action(realsense_node)
+    ld.add_action(image_projector_node)
+    ld.add_action(query_node)
+    ld.add_action(move_arm_node)
 
     return ld
