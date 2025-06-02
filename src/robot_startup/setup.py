@@ -20,7 +20,11 @@ setup(
     maintainer_email='evas@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+        extras_require={
+        'test': [
+            'pytest',
+        ],
+    },
     entry_points={
         'console_scripts': [
             'move_arm_node = robot_startup.move_arm:main'

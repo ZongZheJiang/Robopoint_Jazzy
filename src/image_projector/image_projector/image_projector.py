@@ -36,7 +36,11 @@ class RGBDSubscriber(Node):
         self.rgb_image = None
         self.depth_image = None
         self.cam_model = None
-        self.srv = self.create_service(Get3DCoordinates, 'get_3d_coordinates', self.get_3d_coordinates_callback)
+        self.srv = self.create_service(
+            Get3DCoordinates, 
+            'get_3d_coordinates', 
+            self.get_3d_coordinates_callback
+        )
 
     def camera_info_callback(self, msg: CameraInfo):
         # Create and initialize the pinhole camera model with the latest camera info.

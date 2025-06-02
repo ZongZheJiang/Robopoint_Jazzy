@@ -16,7 +16,11 @@ setup(
     maintainer_email='hominhan56@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    extras_require={
+        'test': [
+            'pytest',
+        ],
+    },
     entry_points={
         'console_scripts': [
             # 'executable_name_in_ros = package_name.python_module_name:main_function'

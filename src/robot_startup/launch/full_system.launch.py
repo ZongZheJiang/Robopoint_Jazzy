@@ -18,13 +18,17 @@ def generate_launch_description():
         launch_arguments={
             'robot_model': 'px100',  
             'use_rviz': 'true',
-            'use_joint_pub_gui': 'true'        }.items()
+            'use_joint_pub_gui': 'true',
+        }.items()
     )
 
     realsense_camera_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
-            FindPackageShare('realsense2_camera'),
-            '/launch/rs_launch.py'
+            PathJoinSubstitution([
+                FindPackageShare('realsense2_camera'),
+                'launch',
+                'rs_launch.py'
+            ])
         ]),
         launch_arguments={
             'pointcloud.enable': 'true',       
